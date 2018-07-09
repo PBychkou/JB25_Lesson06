@@ -27,8 +27,7 @@ public class HW_16_1_Main {
 
         HW_16_1_GroupImpl groupImpl = new HW_16_1_GroupImpl();
 
-/*         int AvgStudentMark = groupImpl.calculateAvgStudentMark(group);
-        System.out.println("AvgStudentMark = " + AvgStudentMark); */
+        groupImpl.calculateAvgStudentMark(group);
 
         double AvgGroupMark = groupImpl.calculateAvgGroupMark(group);
         System.out.println("AvgGroupMark = " + AvgGroupMark);

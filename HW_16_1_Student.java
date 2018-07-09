@@ -2,16 +2,16 @@ public class HW_16_1_Student {
     
     private String firstName;
     private String lastName;
-    private int markVolleyaball;
-    private int markBadminton;
-    private int markSwimming;
-    private int markBoxing;
-    private int markBilliard;
+    private double markVolleyaball;
+    private double markBadminton;
+    private double markSwimming;
+    private double markBoxing;
+    private double markBilliard;
 
     public HW_16_1_Student() {
     }
 
-    public HW_16_1_Student(String firstName, String lastName, int markVolleyaball, int markBadminton, int markSwimming, int markBoxing, int markBilliard) {
+    public HW_16_1_Student(String firstName, String lastName, double markVolleyaball, double markBadminton, double markSwimming, double markBoxing, double markBilliard) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.markVolleyaball = markVolleyaball;
@@ -27,19 +27,19 @@ public class HW_16_1_Student {
     public String getLastName() {
         return lastName;
     }
-    public int getMarkVolleyBall() {
+    public double getMarkVolleyBall() {
         return markVolleyaball;
     }
-    public int getMarkBadminton() {
+    public double getMarkBadminton() {
         return markBadminton;
     }
-    public int getMarkSwimming() {
+    public double getMarkSwimming() {
         return markSwimming;
     }
-    public int getMarkBoxing() {
+    public double getMarkBoxing() {
         return markBoxing;
     }
-    public int getMarkBilliard() {
+    public double getMarkBilliard() {
         return markBilliard;
     }
 
@@ -49,19 +49,19 @@ public class HW_16_1_Student {
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
-    public void setMarkVolleyball(int markVolleyaball) {
+    public void setMarkVolleyball(double markVolleyaball) {
         this.markVolleyaball = markVolleyaball;
     }
-    public void setMarkBadminton(int markBadminton) {
+    public void setMarkBadminton(double markBadminton) {
         this.markBadminton = markBadminton;
     }
-    public void setMarkSwimming(int markSwimming) {
+    public void setMarkSwimming(double markSwimming) {
         this.markSwimming = markSwimming;
     }
-    public void setMmarkBoxing(int markBoxing) {
+    public void setMmarkBoxing(double markBoxing) {
         this.markBoxing = markBoxing;
     }
-    public void setMarkBilliard(int markBilliard) {
+    public void setMarkBilliard(double markBilliard) {
         this.markBilliard = markBilliard;
     }
     

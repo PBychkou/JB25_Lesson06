@@ -15,16 +15,17 @@ public class HW_16_1_GroupImpl {
         return avgGroupMark;
     }
 
-/*     public int calculateAvgStudentMark (HW_16_1_Group group) {
+    public void calculateAvgStudentMark (HW_16_1_Group group) {
 
-        int avgStudentMark = 0;
+        double avgStudentMark = 0;
+        int count = 1;
 
         for (HW_16_1_Student student : group.getStudents()) {
-            avgStudentMark = (getMarkVolleyBall() + getMakrBadminton() + getMarkSwimming() + getMarkBoxing() + getMakrBilliard()) / 5;
+            avgStudentMark = (student.getMarkVolleyBall() + student.getMarkBadminton() + student.getMarkSwimming() + student.getMarkBoxing() + student.getMarkBilliard()) / 5;
+            System.out.println(count + ". " + student.getFirstName() + " " + student.getLastName() + ", " + "average mark: " +  avgStudentMark);
+            count ++;
         }
-        return avgStudentMark;
-
-    } */
+    } 
 
     public int calculateTopPerformers(HW_16_1_Group group) {
 
