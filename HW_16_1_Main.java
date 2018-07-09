@@ -1,9 +1,5 @@
 import java.util.List;
 
-/* import HW_16_1_Group;
-import HW_16_1_Student;
-import HW_16_1_GroupImpl; */
-
 public class HW_16_1_Main {
 
     public static void main(String[] args) {

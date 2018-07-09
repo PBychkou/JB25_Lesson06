@@ -1,6 +1,3 @@
-/* import HW_16_1_Student;
-import HW_16_1_Group; */
-
 public class HW_16_1_GroupImpl {
 
     public double calculateAvgGroupMark (HW_16_1_Group group) {

@@ -1,8 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
 
-/* import HW_16_1_Student; */
-
 public class HW_16_1_Group {
 
     private List<HW_16_1_Student> students;
